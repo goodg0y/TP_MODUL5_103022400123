@@ -30,7 +30,7 @@ class Program
         HaloGeneric halo = new HaloGeneric();
         halo.SapaUser<string>("Razka");
 
-        DataGeneric<string> data = new DataGeneric<string>("103022400123"); // NIM kamu
+        DataGeneric<string> data = new DataGeneric<string>("103022400123");
         data.PrintData();
     }
 }
